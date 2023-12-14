@@ -1,0 +1,96 @@
+/* Write your code here. */
+
+.second-card-conatiner {
+  height: 70vh;
+  width: 50vw;
+  border-radius: 10px;
+  border-width: 2px;
+  border: solid;
+  border-color: #e4d9d9c2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 70px;
+  background-color: #ffffff33;
+  color: white;
+}
+
+.details-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.score-para {
+  font-size: 30px;
+}
+
+.para {
+  font-size: 35px;
+  color: #6a59ff;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.won-or-lose-image {
+  padding-top: 20px;
+  order: 2;
+}
+
+.button {
+  height: 50px;
+  width: 150px;
+  background-color: #ffce27;
+  font-size: 15px;
+  border-radius: 10px;
+  border-width: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .second-card-conatiner {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .para {
+    margin: 0;
+  }
+
+  .details-conatiner {
+    order: 2;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .score-para {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .won-or-lose-image {
+    height: 300px;
+    width: 200px;
+    order: 1;
+  }
+
+  .button {
+    height: 30px;
+    width: 100px;
+    background-color: #ffce27;
+    font-size: 12px;
+    border-radius: 10px;
+    border-width: 0;
+    margin: 10px;
+  }
+}
